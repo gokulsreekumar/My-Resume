@@ -1,0 +1,130 @@
+.primary-container{
+    margin: 0%;
+    background-color: indianred;
+}
+.DivMain{
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    margin:0%
+}
+.leftDiv{
+    background-color: rgb(236, 198, 167);
+     width:20%;
+    height:100%;
+    padding: 3%;
+    border-right: 1px;
+    box-shadow: 5px 5px 15px 5px #00000042;
+}
+.rightDiv{
+    margin-top: 2%;
+    background-color: rgb(253, 226, 194);
+    width: 80%;height:100%;
+    padding: 3%;
+    box-shadow: 7px 5px 20px 5px #00000042;
+}
+.Name-and-Intro{
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: seashell;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 5px #00000042;
+    margin-bottom: 4%;
+}
+.Headings{
+    font-style: italic;
+    font-size: 30px;
+}
+.ula {
+    list-style-type: none;
+    background: #d18b49c5;
+    padding: 7px;
+    border-radius: 10px;
+}
+.ula li{
+    color: rgb(97, 76, 32);
+    background: #ffedc5d3;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 3px 3px 7px 3px #00000042;
+}
+
+.ulb{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.ulb li{
+    margin-top: 10px;
+}
+
+.ola{
+    list-style-type: none;
+    background: #d18b49c5;
+    padding: 7px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+.ola li{
+    color: rgb(97, 76, 32);
+    background: #ffedc5d3;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px 3px #00000042;
+}
+
+.common-right-ul li{
+    margin: 8px;
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.topicHead{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.topSubHead{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+}
+
+.topicBody{
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 8px;
+
+}
+
+#NameText{
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+#IntroText{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: rgb(100, 87, 63);
+    font-family: 'Courier New', Courier, monospace;
+} 
+#IntroText1{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    color: rgb(65, 65, 65);
+}     
